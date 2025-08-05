@@ -6,7 +6,7 @@ import requests
 import websocket
 
 # 1. Traemos las credenciales del archivo config.json y las cargamos en la variable config
-CONFIG_PATH = os.path.join("..","..","config.json")
+CONFIG_PATH = os.path.join("..","config.json")
 
 with open(CONFIG_PATH, "r") as f:
     config = json.load(f)
